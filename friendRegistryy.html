@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Friend Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="friendRegistry.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="form-title">Friend Registry</h1>
+    <form action="https://script.google.com/macros/s/AKfycbzfTIoVGmEbvOw45n2ZuldTfpRV6PmLshXf4dtf0wjBAt22ASryajnCOjvSlYrccYTE/exec" method="post">
+      <div class="main-user-info">
+        <div class="user-input-box">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter Full Name" required />
+        </div>
+        <div class="user-input-box">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter Username" required />
+        </div>
+        <div class="user-input-box">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter Email" required />
+        </div>
+        <div class="user-input-box">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number" required />
+        </div>
+        <div class="user-input-box">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter Password" required />
+        </div>
+        <div class="user-input-box">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required />
+        </div>
+        <div class="user-input-box">
+          <label for="dateOfBirth">Date of Birth:</label>
+          <input type="date" id="dateOfBirth" name="dateOfBirth" placeholder="Select Date of Birth" required />
+        </div>
+      </div>
+      <div class="gender-details-box">
+        <span class="gender-title">Gender:</span>
+        <div class="gender-category">
+          <input type="radio" name="gender" id="male" value="male" required />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" required />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="other" value="other" required />
+          <label for="other">Other</label>
+        </div>
+      </div>
+      <div class="form-submit-btn">
+        <input type="submit" value="Register">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
