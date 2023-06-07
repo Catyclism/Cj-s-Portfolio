@@ -8,6 +8,14 @@
   *::after {
     box-sizing: inherit;
   }
+  .home-button {
+    display: inline-block;
+     padding: 10px 20px;
+     background-color: #333;
+     color: #fff;
+     text-decoration: none;
+}
+  
 
  html {
    background-image: url("bq1.jpg");
@@ -67,3 +75,4 @@
  #quote > img {
    height: 70%;
  }
+ 
