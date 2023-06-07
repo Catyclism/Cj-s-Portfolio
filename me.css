@@ -1,14 +1,19 @@
 body {
-       margin: 0;
-       padding: 0;
-     }
-
-     *,
-     *::before,
-     *::after {
-       box-sizing: inherit;
-     }
-
+  
+    margin: 0;
+    padding: 0;
+    background-image: url('quo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: palegreen;
+  }
+  
+     
     html {
       box-sizing: border-box;
       font-size: 50px;
@@ -68,3 +73,11 @@ body {
         height: 30%;  
         transform: rotate(180deg);
     }
+    
+		.home-button {
+      display: inline-block;
+       padding: 10px 20px;
+       background-color: #333;
+       color: #fff;
+       text-decoration: none;
+ }
